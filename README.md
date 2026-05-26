@@ -17,6 +17,8 @@ retrieval/generation, and a hard separation between **model-generated reasoning*
 
 ## Quickstart
 
+Requires **Python 3.11+** (also runs on 3.9+). No `pip install` needed.
+
 ```bash
 # 1. Deterministic run — no API key, no network, no installs:
 python3 run.py --mock-llm
