@@ -1,0 +1,9 @@
+{
+  "question_id": "Q3",
+  "answer": "The user should not submit another request as duplicate withdrawal requests should not be made while a review is pending.",
+  "cited_chunk_ids": [
+    "D3::2"
+  ],
+  "abstained": false,
+  "notes": ""
+}

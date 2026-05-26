@@ -1,0 +1,10 @@
+{
+  "question_id": "Q1",
+  "answer": "The API limits allow for 120 requests per minute per API token. To address the HTTP 429 errors, clients should use exponential backoff with jitter.",
+  "cited_chunk_ids": [
+    "D1::0",
+    "D1::4"
+  ],
+  "abstained": false,
+  "notes": ""
+}

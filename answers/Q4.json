@@ -1,0 +1,9 @@
+{
+  "question_id": "Q4",
+  "answer": "No, an agent must not suggest that a user change their stated country to access a restricted product.",
+  "cited_chunk_ids": [
+    "D4::2"
+  ],
+  "abstained": false,
+  "notes": ""
+}

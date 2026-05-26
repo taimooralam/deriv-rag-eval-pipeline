@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": "Q1",
+    "retrieval_outcome": "exact_match",
+    "answer_label": "partially_grounded",
+    "failure_mode": "unsupported_detail",
+    "risk_flag": "hallucination_risk",
+    "recommended_fix": "Some details are unsupported. Trim the answer to the evidence or retrieve additional supporting chunks."
+  },
+  {
+    "question_id": "Q2",
+    "retrieval_outcome": "exact_match",
+    "answer_label": "grounded",
+    "failure_mode": "no_failure",
+    "risk_flag": "none",
+    "recommended_fix": "No action required; monitor."
+  },
+  {
+    "question_id": "Q3",
+    "retrieval_outcome": "exact_match",
+    "answer_label": "grounded",
+    "failure_mode": "no_failure",
+    "risk_flag": "none",
+    "recommended_fix": "No action required; monitor."
+  },
+  {
+    "question_id": "Q4",
+    "retrieval_outcome": "exact_match",
+    "answer_label": "grounded",
+    "failure_mode": "no_failure",
+    "risk_flag": "none",
+    "recommended_fix": "No action required; monitor."
+  },
+  {
+    "question_id": "Q5",
+    "retrieval_outcome": "exact_match",
+    "answer_label": "grounded",
+    "failure_mode": "no_failure",
+    "risk_flag": "none",
+    "recommended_fix": "No action required; monitor."
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "configurations": [
+    "sentence_chunks_topk5",
+    "whole_document_topk5"
+  ],
+  "results": {
+    "sentence_chunks_topk5": {
+      "config": {
+        "granularity": "sentence_chunks",
+        "top_k": 5
+      },
+      "per_question": [
+        {
+          "question_id": "Q1",
+          "retrieved_doc_ids": [
+            "D1",
+            "D5"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q2",
+          "retrieved_doc_ids": [
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q3",
+          "retrieved_doc_ids": [
+            "D3",
+            "D5"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q4",
+          "retrieved_doc_ids": [
+            "D4",
+            "D2",
+            "D1"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q5",
+          "retrieved_doc_ids": [
+            "D5",
+            "D3",
+            "D2"
+          ],
+          "retrieval_outcome": "exact_match"
+        }
+      ],
+      "exact_match_rate": 1.0
+    },
+    "whole_document_topk5": {
+      "config": {
+        "granularity": "whole_document",
+        "top_k": 5
+      },
+      "per_question": [
+        {
+          "question_id": "Q1",
+          "retrieved_doc_ids": [
+            "D1",
+            "D5",
+            "D4",
+            "D3",
+            "D2"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q2",
+          "retrieved_doc_ids": [
+            "D2",
+            "D4",
+            "D3",
+            "D5",
+            "D1"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q3",
+          "retrieved_doc_ids": [
+            "D3",
+            "D2",
+            "D5",
+            "D4",
+            "D1"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q4",
+          "retrieved_doc_ids": [
+            "D2",
+            "D4",
+            "D3",
+            "D5",
+            "D1"
+          ],
+          "retrieval_outcome": "exact_match"
+        },
+        {
+          "question_id": "Q5",
+          "retrieved_doc_ids": [
+            "D5",
+            "D3",
+            "D2",
+            "D4",
+            "D1"
+          ],
+          "retrieval_outcome": "exact_match"
+        }
+      ],
+      "exact_match_rate": 1.0
+    }
+  },
+  "exact_match_rate_delta": 0.0,
+  "tradeoff_summary": "Sentence chunks give finer-grained, citable evidence (better for downstream citation verification) at similar recall; whole-document retrieval is coarser and weakens citation precision. On this corpus exact-match recall is comparable; the chunked config is preferred because grounding is checked at the sentence level. Delta = whole_doc - chunked."
+}

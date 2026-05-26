@@ -1,0 +1,27 @@
+{
+  "n_questions": 5,
+  "retrieval_hit_rate_exact": 1.0,
+  "retrieval_recall_any": 1.0,
+  "retrieval_outcomes": {
+    "exact_match": 5
+  },
+  "answer_label_counts": {
+    "partially_grounded": 1,
+    "grounded": 4
+  },
+  "failure_mode_counts": {
+    "unsupported_detail": 1,
+    "no_failure": 4
+  },
+  "risk_flag_counts": {
+    "hallucination_risk": 1,
+    "none": 4
+  },
+  "highest_risk_questions": [
+    {
+      "question_id": "Q1",
+      "risk_flag": "hallucination_risk",
+      "failure_mode": "unsupported_detail"
+    }
+  ]
+}

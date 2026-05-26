@@ -1,0 +1,116 @@
+[
+  {
+    "question_id": "Q1",
+    "citation_ids_present": true,
+    "all_citations_in_retrieval_set": true,
+    "support_checks": [
+      {
+        "claim": "120 requests per minute",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D1::0"
+        ],
+        "method": "numeric_match"
+      },
+      {
+        "claim": "429 errors clients should",
+        "supported": false,
+        "supporting_chunk_ids": [],
+        "method": "numeric_match"
+      },
+      {
+        "claim": "overall lexical grounding of answer against cited evidence",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D1::0",
+          "D1::4"
+        ],
+        "method": "token_overlap_ratio",
+        "ratio": 0.625
+      }
+    ],
+    "answer_label": "partially_grounded",
+    "explanation": "Partial support: numeric_ratio=0.50, lexical_ratio=0.62."
+  },
+  {
+    "question_id": "Q2",
+    "citation_ids_present": true,
+    "all_citations_in_retrieval_set": true,
+    "support_checks": [
+      {
+        "claim": "2 FA can be",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D2::2"
+        ],
+        "method": "numeric_match"
+      },
+      {
+        "claim": "overall lexical grounding of answer against cited evidence",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D2::2"
+        ],
+        "method": "token_overlap_ratio",
+        "ratio": 1.0
+      }
+    ],
+    "answer_label": "grounded",
+    "explanation": "All 1 numeric claim(s) supported by cited text; lexical grounding 1.00 >= 0.35."
+  },
+  {
+    "question_id": "Q3",
+    "citation_ids_present": true,
+    "all_citations_in_retrieval_set": true,
+    "support_checks": [
+      {
+        "claim": "overall lexical grounding of answer against cited evidence",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D3::2"
+        ],
+        "method": "token_overlap_ratio",
+        "ratio": 0.8
+      }
+    ],
+    "answer_label": "grounded",
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.80 >= 0.35."
+  },
+  {
+    "question_id": "Q4",
+    "citation_ids_present": true,
+    "all_citations_in_retrieval_set": true,
+    "support_checks": [
+      {
+        "claim": "overall lexical grounding of answer against cited evidence",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D4::2"
+        ],
+        "method": "token_overlap_ratio",
+        "ratio": 0.5
+      }
+    ],
+    "answer_label": "grounded",
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.50 >= 0.35."
+  },
+  {
+    "question_id": "Q5",
+    "citation_ids_present": true,
+    "all_citations_in_retrieval_set": true,
+    "support_checks": [
+      {
+        "claim": "overall lexical grounding of answer against cited evidence",
+        "supported": true,
+        "supporting_chunk_ids": [
+          "D5::1",
+          "D5::0"
+        ],
+        "method": "token_overlap_ratio",
+        "ratio": 0.952
+      }
+    ],
+    "answer_label": "grounded",
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.95 >= 0.35."
+  }
+]

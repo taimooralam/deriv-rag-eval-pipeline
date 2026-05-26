@@ -1,0 +1,9 @@
+{
+  "question_id": "Q2",
+  "answer": "Additional identity verification is required before 2FA can be removed if the user has lost access to their device.",
+  "cited_chunk_ids": [
+    "D2::2"
+  ],
+  "abstained": false,
+  "notes": ""
+}
