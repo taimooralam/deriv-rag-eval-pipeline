@@ -44,7 +44,8 @@ def answer_question(question_text, cfg):
         "question": question_text,
         "retrieval": {
             "retrieved_doc_ids": retrieval_record["retrieved_doc_ids"],
-            "retrieval_outcome": retrieval_record["retrieval_outcome"],
+            # retrieval_outcome is intentionally omitted: it is only meaningful when a
+            # question carries gold_doc_ids, which a live service question does not.
             "top_k_chunks": retrieval_record["top_k_chunks"],
         },
         "answer": answer,
