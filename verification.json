@@ -70,11 +70,11 @@
           "D3::2"
         ],
         "method": "token_overlap_ratio",
-        "ratio": 0.8
+        "ratio": 0.714
       }
     ],
     "answer_label": "grounded",
-    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.80 >= 0.35."
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.71 >= 0.35."
   },
   {
     "question_id": "Q4",
@@ -88,11 +88,11 @@
           "D4::2"
         ],
         "method": "token_overlap_ratio",
-        "ratio": 0.5
+        "ratio": 1.0
       }
     ],
     "answer_label": "grounded",
-    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.50 >= 0.35."
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 1.00 >= 0.35."
   },
   {
     "question_id": "Q5",
@@ -103,14 +103,13 @@
         "claim": "overall lexical grounding of answer against cited evidence",
         "supported": true,
         "supporting_chunk_ids": [
-          "D5::1",
           "D5::0"
         ],
         "method": "token_overlap_ratio",
-        "ratio": 0.952
+        "ratio": 1.0
       }
     ],
     "answer_label": "grounded",
-    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 0.95 >= 0.35."
+    "explanation": "All 0 numeric claim(s) supported by cited text; lexical grounding 1.00 >= 0.35."
   }
 ]

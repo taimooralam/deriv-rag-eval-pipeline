@@ -1,8 +1,7 @@
 {
   "question_id": "Q5",
-  "answer": "Agents should acknowledge the issue, provide the latest confirmed status, and give the next expected update time if known, but they should not promise a specific restoration time unless it has been officially communicated.",
+  "answer": "Agents should acknowledge the issue, avoid speculating on root cause, provide the latest confirmed status, and give the next expected update time if known.",
   "cited_chunk_ids": [
-    "D5::1",
     "D5::0"
   ],
   "abstained": false,

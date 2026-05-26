@@ -2,43 +2,43 @@
   "transitions": [
     {
       "stage": "INIT",
-      "timestamp": "2026-05-26T10:50:33.773404+00:00"
+      "timestamp": "2026-05-26T10:59:01.472583+00:00"
     },
     {
       "stage": "DOCUMENTS_LOADED",
-      "timestamp": "2026-05-26T10:50:33.773907+00:00"
+      "timestamp": "2026-05-26T10:59:01.473197+00:00"
     },
     {
       "stage": "INDEX_BUILT",
-      "timestamp": "2026-05-26T10:50:33.783153+00:00"
+      "timestamp": "2026-05-26T10:59:01.475883+00:00"
     },
     {
       "stage": "RETRIEVAL_COMPLETE",
-      "timestamp": "2026-05-26T10:50:33.787857+00:00"
+      "timestamp": "2026-05-26T10:59:01.478717+00:00"
     },
     {
       "stage": "ANSWERS_GENERATED",
-      "timestamp": "2026-05-26T10:50:49.872995+00:00"
+      "timestamp": "2026-05-26T10:59:18.619096+00:00"
     },
     {
       "stage": "CITATIONS_VERIFIED",
-      "timestamp": "2026-05-26T10:50:49.887262+00:00"
+      "timestamp": "2026-05-26T10:59:18.636219+00:00"
     },
     {
       "stage": "ANSWERS_SCORED",
-      "timestamp": "2026-05-26T10:50:49.895500+00:00"
+      "timestamp": "2026-05-26T10:59:18.646034+00:00"
     },
     {
       "stage": "FAILURE_ANALYSIS_COMPLETE",
-      "timestamp": "2026-05-26T10:50:49.910032+00:00"
+      "timestamp": "2026-05-26T10:59:18.658075+00:00"
     },
     {
       "stage": "VALIDATION_COMPLETE",
-      "timestamp": "2026-05-26T10:51:07.303406+00:00"
+      "timestamp": "2026-05-26T10:59:30.654381+00:00"
     },
     {
       "stage": "RESULTS_FINALISED",
-      "timestamp": "2026-05-26T10:51:07.303827+00:00"
+      "timestamp": "2026-05-26T10:59:30.654933+00:00"
     }
   ],
   "current_stage": "RESULTS_FINALISED"
