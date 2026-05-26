@@ -1,0 +1,13 @@
+# The pipeline runs on the Python standard library only — there are no required
+# third-party runtime dependencies. This is deliberate (see docs/DECISIONS.md, ADR-002):
+# it guarantees the evaluator can run everything from a clean checkout with no install
+# step, and keeps the graded retrieval/verification/scoring logic fully legible.
+#
+# - Retrieval: hand-written BM25 (pure Python).
+# - LLM (real path): OpenRouter is called over stdlib `urllib` — no SDK needed.
+# - Tests: stdlib `unittest`.
+#
+# Optional: the alternate Anthropic provider path uses the official SDK. Only install
+# this if you want to drive the pipeline via ANTHROPIC_API_KEY instead of OpenRouter:
+#
+#   anthropic>=0.40
