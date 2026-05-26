@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": "Q1",
+    "category_hint": "api_usage",
+    "question": "I got HTTP 429 errors after sending many requests quickly. What are the API limits and what should I do next?",
+    "gold_doc_ids": ["D1"]
+  },
+  {
+    "question_id": "Q2",
+    "category_hint": "account_security",
+    "question": "A user lost their 2FA device and wants support to remove 2FA immediately. What is the correct process?",
+    "gold_doc_ids": ["D2"]
+  },
+  {
+    "question_id": "Q3",
+    "category_hint": "payments",
+    "question": "A withdrawal over 10,000 USD is still pending after a few hours. Should the user submit another request?",
+    "gold_doc_ids": ["D3"]
+  },
+  {
+    "question_id": "Q4",
+    "category_hint": "compliance",
+    "question": "Can an agent suggest that a user change their stated country so they can use a restricted product?",
+    "gold_doc_ids": ["D4"]
+  },
+  {
+    "question_id": "Q5",
+    "category_hint": "incident_response",
+    "question": "There is an ongoing outage. What should agents say if they do not know the restoration time yet?",
+    "gold_doc_ids": ["D5"]
+  }
+]

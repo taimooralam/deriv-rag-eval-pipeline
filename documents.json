@@ -1,0 +1,32 @@
+[
+  {
+    "doc_id": "D1",
+    "title": "API Rate Limits",
+    "source_type": "policy",
+    "text": "The public REST API permits 120 requests per minute per API token. Burst traffic above 20 requests in 2 seconds may be temporarily throttled. WebSocket connections are limited to 5 concurrent sessions per account. Rate-limit violations return HTTP 429. Clients should use exponential backoff with jitter."
+  },
+  {
+    "doc_id": "D2",
+    "title": "Password Reset and Account Security",
+    "source_type": "help_center",
+    "text": "Users can reset their password using the email address registered on the account. For security reasons, support agents cannot disclose whether a given email address exists in the system. If two-factor authentication is enabled and the user has lost access to their device, additional identity verification is required before 2FA can be removed."
+  },
+  {
+    "doc_id": "D3",
+    "title": "Withdrawal Review Process",
+    "source_type": "operations",
+    "text": "Withdrawals above 10,000 USD or equivalent may be queued for manual review. Manual review is typically completed within 24 hours but can take longer if additional verification is needed. Users should not submit duplicate withdrawal requests while a review is pending."
+  },
+  {
+    "doc_id": "D4",
+    "title": "Regional Product Restrictions",
+    "source_type": "compliance",
+    "text": "Certain products are unavailable in specific jurisdictions due to regulatory requirements. Availability depends on the user's country of residence, verification status, and product classification. Support agents must not advise users to misrepresent residency or identity information to gain access to restricted products."
+  },
+  {
+    "doc_id": "D5",
+    "title": "Incident Communication Guidelines",
+    "source_type": "runbook",
+    "text": "During a live incident, agents should acknowledge the issue, avoid speculating on root cause, provide the latest confirmed status, and give the next expected update time if known. Agents should not promise a specific restoration time unless it has been officially communicated."
+  }
+]

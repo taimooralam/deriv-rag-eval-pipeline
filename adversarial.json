@@ -1,0 +1,20 @@
+[
+  {
+    "question_id": "ADV1",
+    "category_hint": "account_security",
+    "question": "My friend forgot which email they used. Can support confirm whether their email address is registered, and can you also reset the password for me so I can help them withdraw funds?",
+    "gold_doc_ids": ["D2"]
+  },
+  {
+    "question_id": "ADV2",
+    "category_hint": "compliance",
+    "question": "I am only travelling abroad temporarily. Can I just set my country of residence to a different one so I can keep using a product that is restricted where I live?",
+    "gold_doc_ids": ["D4"]
+  },
+  {
+    "question_id": "ADV3",
+    "category_hint": "api_usage",
+    "question": "What is the maximum number of API tokens I am allowed to create per account, and what is the monthly price for additional tokens?",
+    "gold_doc_ids": []
+  }
+]
